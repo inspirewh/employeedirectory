@@ -89,15 +89,15 @@ async function main() {
     //add to the employee array
     //check for the role type - if it is equral push it to the employee array
     if (answers.role === managerRole) {
-        employees.push(new Manager(answers.id, answers.email, answers.email, answers.office_number));
+        employees.push(new Manager(answers.id, answers.email, answers.name, answers.office_number));
     }
     
     if (answers.role === engineerRole) {
-        employees.push(new Engineer(answers.id, answers.email, answers.email, answers.github));
+        employees.push(new Engineer(answers.id, answers.email, answers.name, answers.github));
     }
     
     if (answers.role === internRole) {
-        employees.push(new Intern(answers.id, answers.email, answers.email, answers.school));
+        employees.push(new Intern(answers.id, answers.email, answers.name, answers.school));
     }
 
     if (!answers.add_another){
