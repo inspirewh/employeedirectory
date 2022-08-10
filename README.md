@@ -18,7 +18,7 @@
   ## Application Demo
   The following link shows the functionality of the Employee Profile Generator
   
-  [Link To Walkthrough Demonstration] (./assets\Walkthrough_Demo.webm)
+  [Link To Walkthrough Demonstration] (https://drive.google.com/file/d/1wbkppYvb1XQREzFE9Sa1tdtguxX567ry/view?usp=sharing)
 
   ## Installation
   'npm init' and 'npm install inquirer',  'npm i jest' and 'npm i -D @types/jest' is required
